@@ -1,0 +1,23 @@
+.analog-clock{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    border :4px solid black;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.clock-back{
+    width: 100%;
+    height: 100%;
+}
+.hour{
+    width:60%;
+    transform: translate(34%,-136%);
+}
+.minutes{
+    width: 60%;
+    transform: translate(34%,-238%);
+}
+.seconds{
+    width:60%;
+    transform: translate(33%,-342%);
+}
